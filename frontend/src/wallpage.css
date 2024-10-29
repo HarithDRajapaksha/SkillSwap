@@ -1,0 +1,138 @@
+body
+{
+    background-color: #0A282E;
+}
+
+#wallpage 
+{
+    display: flex;
+    gap: 10px;
+}
+
+#notifications, #chat 
+{
+    width: 250px;
+    position: fixed;
+    top: 12%;
+    bottom: 0;
+    overflow-y: auto;
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 10px;
+    padding-top: 0;
+}
+
+#notifications 
+{
+    left: 0;
+    border-top-right-radius: 50px;
+}
+
+#notifications h3
+{
+    text-align: left;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+#add-new-chat
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 40px;
+    padding: 0;
+    border: 2px solid black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+#chat 
+{
+    right: 0;
+    border-top-left-radius: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+}  
+
+#chat h3
+{
+    font-weight: 900;
+    font-size: 20px;
+}
+
+#postfeed 
+{
+    flex-grow: 1;
+    margin-left: 220px;
+    margin-right: 230px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+#profile
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#create-post 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#post-feed #post 
+{
+    background-color: white;
+    border: 2px solid black;
+    padding: 15px;
+    margin-left:45px;
+    margin-right: 45px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+#type-text
+{
+    height: 25px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#post-button
+{
+    width: 75px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    background-color: #1100ff;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+#game-area-button
+{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    background-color: #65558F;
+    color: #ffffff;
+    font-weight: 900;
+}
