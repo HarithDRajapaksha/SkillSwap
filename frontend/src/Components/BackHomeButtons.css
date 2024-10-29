@@ -1,0 +1,26 @@
+#BackButton, #HomeButton
+{
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    border-radius: 25px;
+    color: black;
+    font-weight: 900;
+    border-style: none;
+    cursor: pointer;
+    margin-top: 1.5%;
+}
+
+#BackButton
+{
+    background-color: #ffffff;
+    margin-left: 0;
+    color: #65558F;
+}
+
+#HomeButton
+{
+    background-color: #65558F;
+    margin-left: 93.5%;
+    color: #ffffff;
+}
